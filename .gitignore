@@ -1,4 +1,11 @@
-_site/
-.sass-cache/
+# Jekyll stuff
+_site
+.sass-cache
 .jekyll-cache/
 .jekyll-metadata
+_drafts
+rafts
+
+# Automation scripts
+*.py
+*.bat
