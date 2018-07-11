@@ -1,0 +1,12 @@
+$body-background: #020202 !default;
+$body-foreground: #f1f1f1 !default;
+
+body 
+{
+  margin: 0;
+  padding: 0;
+  background-color: $body-background;
+  color: $body-foreground;
+  font-size: 16px;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+}
