@@ -4,7 +4,14 @@
 
 <body>
 
+{% include header.html %}
+
 {{ content }}
 
+{% include footer.html %}
+
+{% if site.google_analytics %}
+  {% include analytics.html %}
+{% endif %}
 </body>
 </html>
