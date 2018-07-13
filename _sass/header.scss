@@ -1,11 +1,11 @@
 .left-menu
 {
-	height: 70%;
-    width: 160px;
+	height: 60%;
+    width: 15%;
     position: fixed;
     z-index: 1;
-    top: 0;
-    left: 0;
+    top: 7.5%;
+    left: 5%;
     background-color: #fff;
     overflow-x: hidden;
     padding-top: 20px;
@@ -13,18 +13,31 @@
 
 .right-menu
 {
-	height: 70%;
-    width: 160px;
+	height: 60%;
+    width: 15%;
     position: fixed;
     z-index: 1;
-    top: 0;
-    right: 0;
+    top: 7.5%;
+    right: 5%;
     background-color: #fff;
     overflow-x: hidden;
     padding-top: 20px;
 }
 
+@media only screen and (max-width: 600px)
+{	/* main: 70% */
+	.left-menu
+	{
+		width: 20%;
+	}
+
+	.right-menu
+	{
+	   
+	}
+}
+
 .logo
 {
-	;
+	margin-top: 5%;
 }
