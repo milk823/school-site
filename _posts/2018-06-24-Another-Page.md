@@ -1,5 +1,6 @@
 ---
-title: Sample Page
+title: Another Page
+pinned: false
 published: true
 ---
 
