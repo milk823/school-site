@@ -3,4 +3,6 @@
 
 Jekyll theme originally made for my school site.
 
+It uses Google Fonts to serve Open Sans.
+
 ### For now it is not usable.

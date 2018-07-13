@@ -1,5 +1,8 @@
-$body-background: #020202 !default;
-$body-foreground: #f1f1f1 !default;
+$body-background: #f1f1f1 !default;
+$body-foreground: #020202 !default;
+$link: #4286f4;
+$linkbrighter: #4c90ff;
+$linkbrightest: #5998ff;
 
 body 
 {
@@ -8,5 +11,39 @@ body
   background-color: $body-background;
   color: $body-foreground;
   font-size: 16px;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: 'Open Sans', sans-serif;
+}
+
+main
+{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a:link 
+{
+    color: $link;
+	text-decoration: underline;
+}
+
+a:visited 
+{
+    color: $link;
+}
+
+a:hover 
+{
+    color: $linkbrighter;
+}
+
+a:active 
+{
+    color: $linkbrightest;
+} 
+
+ul 
+{
+	list-style-type: none;
+    margin: 0;
 }
